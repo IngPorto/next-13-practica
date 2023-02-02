@@ -68,5 +68,3 @@ import style from './miComponente.module.css'
 `}
 </style>
 ```
-
-01/02/2023
