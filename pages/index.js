@@ -15,9 +15,9 @@ const Home = () => {
         <div>
             <h1>Hola mundo</h1>
             {
-                productList.map(avo => {
+                productList.map((avo, index) => {
                     return(
-                        <div>{avo.name}</div>
+                        <div key={index}>{avo.name}</div>
                     )
                 })
             }

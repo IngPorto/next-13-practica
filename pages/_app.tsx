@@ -4,7 +4,9 @@ import {AppProps} from 'next/app'
 function MyApp ({Component, pageProps}: AppProps){
     return (
         <Layout>
-            <Component {...pageProps} />
+            <div id='id-definido-en-_app'>
+                <Component {...pageProps} />
+            </div>
         </Layout>
     )
     
