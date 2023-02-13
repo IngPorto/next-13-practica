@@ -1,0 +1,13 @@
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navMenu {
+    margin: 0;
+    padding: 0;
+}
+
+.navCart {
+
+}
